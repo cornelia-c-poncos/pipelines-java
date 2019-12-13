@@ -26,6 +26,7 @@ steps:
       publishJUnitResults: true
       testResultsFiles: "**/TEST-*.xml"
       goals: "package"
+      
 environment: 'smarthotel-dev.bookings'
 strategy: 
  runOnce:
