@@ -26,6 +26,7 @@ steps:
       publishJUnitResults: true
       testResultsFiles: "**/TEST-*.xml"
       goals: "package"
+      
 - stage: deploy
   jobs:
   - deployment: DeployWeb
